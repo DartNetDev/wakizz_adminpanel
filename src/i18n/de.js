@@ -5,7 +5,7 @@ const de = {
   synapseadmin: {
     auth: {
       base_url: "Heimserver URL",
-      welcome: "Willkommen bei Synapse-admin",
+      welcome: "Willkommen bei Wakizz-Admin",
       server_version: "Synapse Version",
       username_error: "Bitte vollständigen Nutzernamen angeben: '@user:domain'",
       protocol_error: "Die URL muss mit 'http://' oder 'https://' beginnen",
