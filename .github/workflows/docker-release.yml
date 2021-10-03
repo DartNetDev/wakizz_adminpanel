@@ -2,8 +2,7 @@ name: Create docker image(s) and push to docker hub
 
 on:
   push:
-    tags:
-      - '[0-9]+\.[0-9]+\.[0-9]+'
+    branches: [ main ]
 
 jobs:
   docker:
@@ -27,4 +26,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: awesometechnologies/synapse-admin:latest
+          tags: vrttech/wakizz:latest
